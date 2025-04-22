@@ -16,13 +16,16 @@ Precision measures how many predicted cases were relevant.
 Recall tells us how many actual relevant cases were identified.
 F1-Score is the harmonic mean of precision and recall.
 
-# Result (Per Class)
-Class 	     Precision	 Recall	   F1-Score	 Support
-Billing 	    0.67	     0.18	      0.29	     11
-General     	0.27	     0.60	      0.38	     5
-Technical   	0.33	     0.50	      0.40	     4
-Macro Avg   	0.42	     0.43	      0.35	     20
-Weighted Avg 	0.50	     0.35	      0.33       20
+### Classification Report (Per Class)
+
+| Class        | Precision | Recall | F1-Score | Support |
+|--------------|-----------|--------|----------|---------|
+| Billing      | 0.67      | 0.18   | 0.29     | 11      |
+| General      | 0.27      | 0.60   | 0.38     | 5       |
+| Technical    | 0.33      | 0.50   | 0.40     | 4       |
+| **Macro Avg**     | **0.42**      | **0.43**   | **0.35**     | **20**      |
+| **Weighted Avg**  | **0.50**      | **0.35**   | **0.33**     | **20**      |
+
 
 # Interpretation
 Billing queries have high precision (0.67) but very low recall (0.18), meaning the model correctly identifies some billing tickets but misses many others.
