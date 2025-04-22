@@ -16,7 +16,7 @@ Precision measures how many predicted cases were relevant.
 Recall tells us how many actual relevant cases were identified.
 F1-Score is the harmonic mean of precision and recall.
 
-### Classification Report (Per Class)
+### Results (Per Class)
 
 | Class        | Precision | Recall | F1-Score | Support |
 |--------------|-----------|--------|----------|---------|
